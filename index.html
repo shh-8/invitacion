@@ -4,7 +4,7 @@
 <meta charset="utf-8"/>
 <link href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🎉</text></svg>" rel="icon"/>
 <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
-<title>Invitación Cumple 24 &amp;</title>
+<title>Invitación Cumple 24 ;</title>
 <script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
 <link href="https://fonts.googleapis.com" rel="preconnect"/>
 <link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/>
@@ -140,7 +140,7 @@
     </style>
 </head>
 <body class="relative flex flex-col items-center justify-between p-3 sm:p-5 md:p-6 lg:p-0 w-full min-h-screen lg:h-screen lg:max-h-screen lg:w-screen lg:overflow-hidden font-body text-glam-black bg-sparkle-field selection:bg-glam-pink selection:text-white">
-<audio id="audio" loop src="https://cdn.jsdelivr.net/gh/shh-8/assets@master/like.mp3"></audio>
+<audio id="audio" loop src="https://cdn.jsdelivr.net/gh/shh-8/assets@master/kiss.mp3"></audio>
 <canvas aria-hidden="true" class="fixed inset-0 pointer-events-none z-50 w-full h-full" id="partyCanvas"></canvas>
 <!-- Interactive Ambient Sparkles Container -->
 <div aria-hidden="true" class="fixed inset-0 pointer-events-none z-40 overflow-hidden" id="cursorSparklesContainer"></div>
@@ -195,7 +195,7 @@
 <span class="w-1 bg-glam-pink rounded-full wave-bar-3"></span>
 <span class="w-1 bg-glam-pink rounded-full wave-bar-4"></span>
 </div>
-<span>♪ Cardi B, Bad Bunny & J Balvin - I Like It ♪</span>
+<span>♪ Dua Lipa & BLACKPINK - Kiss and Make Up ♪</span>
 <span class="text-amber-400 font-normal">✨</span>
 </div>
 <!-- Hero Headline with Drop Glow -->
@@ -295,7 +295,7 @@
 <section class="w-full bg-white/85 backdrop-blur-md rounded-2xl lg:rounded-3xl border-2 border-pink-200/90 p-4 sm:p-5 shadow-[0_8px_24px_rgba(255,182,193,0.32)] transition-transform hover:scale-[1.005]" data-purpose="countdown-section">
 <h2 class="font-marker text-xs sm:text-sm md:text-base text-[#2b2230] text-center tracking-wide flex items-center justify-center gap-2 mb-3 sm:mb-4 uppercase">
 <span>⏳</span>
-<span>CUENTA REGRESIVA PARA LOS 24</span>
+<span>CUENTA REGRESIVA MIS 24</span>
 <span>🎉</span>
 </h2>
 <div class="grid grid-cols-4 gap-3 sm:gap-4">
@@ -566,7 +566,8 @@
         }
     });
 
-    const targetDate = new Date(Date.now() + (14 * 24 * 60 * 60 + 2 * 60 * 60 + 30 * 60 + 25) * 1000);
+    // Fecha fija del evento: 26 de septiembre de 2026, 10:00 PM (hora local del dispositivo).
+    const targetDate = new Date(2026, 8, 26, 22, 0, 0);
     function updateCountdown() {
         const now = new Date();
         const diff = Math.max(0, targetDate - now);
